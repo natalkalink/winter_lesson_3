@@ -1,0 +1,42 @@
+@import url("reset.css");
+*{
+   color: green;
+}
+h1,
+h2,
+h3{
+  color: red;
+}
+p{
+   color: black;
+}
+#top{ 
+  color: aqua;
+}
+.link{
+   color: blue;
+}
+.text p{
+   color: darkmagenta;
+}
+div.sentens>p{
+   color: lightskyblue;
+}
+.text-block * {
+   color: mediumorchid;
+}
+.page~p{
+   color: gold;
+}
+.mark+p{
+   color:pink;
+}
+.page+p{
+   color: lightseagreen;
+}
+.page-text>p {
+   color: aqua;
+}
+[class*="__container"]{
+   color: dodgerblue;
+}
